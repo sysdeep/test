@@ -11,3 +11,4 @@ def print_line():
 
 print_line()
 print "Hello"
+print_line()

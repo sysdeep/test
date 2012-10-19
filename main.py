@@ -1,14 +1,14 @@
 #!/usr/bin/python
 
 
-def print_line():
+def print_line(line_len):
 	ll="";
-	for x in range(10):
+	for x in range(line_len):
 		ll = ll+"="
 	print ll
 
 
 
-print_line()
+print_line(20)
 print "Hello"
-print_line()
+print_line(20)
